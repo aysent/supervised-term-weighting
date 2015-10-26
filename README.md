@@ -6,24 +6,24 @@ http://aysent.github.io/2015/10/21/supervised-term-weighting.html
 
 # Getting started
 
-1. Clone this repository:
+* Clone this repository:
 
 ```
 git clone https://github.com/aysent/supervised-term-weighting
 cd supervised-term-weighting
 ```
 
-2. Download and unpack the Large Movie Review Dataset v1.0 from:
+* Download and unpack the Large Movie Review Dataset v1.0 from:
 
 http://ai.stanford.edu/~amaas/data/sentiment/ [1]
 
-3. [Optional] Files with filenames of training and test samples (train.csv and test.csv) are created with:
+[Optional] Files with filenames of training and test samples (train.csv and test.csv) are created with:
 
 ```
 source create_filelists.sh
 ```
 
-4. Transform reviews with unsupervised (tf-idf) or supervised term weighting schemes and compare their performance:
+* Transform reviews with unsupervised (tf-idf) or supervised term weighting schemes and compare their performance:
 
 ```
 python train.py
